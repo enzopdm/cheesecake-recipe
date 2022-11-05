@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  offset: 0;
+  box-sizing: border-box;
+}
+
+.author {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 500;
+}
+
+.big-ing-topic {
+  width: 543px;
+}
+
+.created {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #828282;
+  font-size: 14px;
+}
+
+.details {
+  width: 216px;
+  height: 367px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 43px;
+  padding-left: 44px;
+}
+
+.details h6 {
+  color: #BDBDBD;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.details-text {
+  display: flex;
+}
+
+.foods-name {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+  margin: 31px 0;
+}
+
+.general-container {
+  padding: 0 235px;
+}
+
+header {
+  height: 666px;
+  padding-top: 52px;
+  padding-bottom: 43px;
+}
+
+.ingredients-cheescake {
+  margin-bottom: 28px;
+}
+
+.ingredients-graham-cracker {
+  margin-top: 32px;
+}
+
+input {
+  width: 21px;
+  height: 21px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.inst-steps {
+  display: flex;
+  margin-bottom: 31px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  text-align: justify;
+}
+
+.inst-steps label {
+  width: 528px;
+  margin-left: 15px;
+}
+
+.inst-steps span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #F2994A;
+  border-radius: 6px;
+  color:#fff;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+img {
+  width: 969px;
+  height: 444px;
+}
+
+main {
+  margin-top: 48px;
+  width: 969px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-text {
+  width: 600px;
+}
+
+.material-symbols-outlined {
+  margin-right: 14px;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.playfair-display {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.source {
+  color: #BDBDBD;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.step-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+}
+
+.step-title:nth-child(1) {
+  margin-bottom: 28px;
+}
+
+.times p {
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+}
+
+.title-description {
+  width: 592px;
+  margin: 12px 0 45px 25px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4F4F4F;
+}
+
+.yields-icon {
+  color: #F2994A;
+}
+
+.yields p {
+  color: #F2994A;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .details {
+    width: 321px;
+    height: 73px;
+    box-shadow: none;
+    border-radius: 0;
+    flex-direction: row;
+    justify-content: left;
+    gap: 25px;
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
+  
+  .details h6 {
+    font-size: 8px;
+  }
+
+  .foods-name {
+    font-size: 16px;
+    margin: 24px 0;
+  }
+
+  .general-container {
+    padding: 0 12px;
+  }
+
+  header {
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  img {
+    width: 352px;
+    height: 202px;
+  }
+
+  input {
+    margin-bottom: 20px;
+    margin-right: 8px;
+  }
+
+  .input label {
+    width: 313px;
+    font-size: 14px;
+  }
+
+  .inst-steps {
+    margin-bottom: 11px;
+  }
+  
+  .inst-steps label {
+    width: 300px;
+  }
+
+  main {
+    margin-top: 24px;
+    width: 345px;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .main-text {
+    width: 345px;
+  }
+
+  .material-symbols-outlined {
+    margin-right: 5px;
+  }
+
+  .source {
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: 70px;
+  }
+
+  .step-title {
+    font-size: 18px;
+  }
+
+  .times p {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .title-description {
+    width: 320px;
+    margin: 12px 0 12px 36px;
+    font-size: 12px;
+  }
+  
+  .yields-div {
+    flex-basis: 100%;
+  }
+
+  .yields p {
+    font-size: 10px;
+  }
+}
